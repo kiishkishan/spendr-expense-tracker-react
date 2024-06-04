@@ -1,6 +1,3 @@
-My apologies for the oversight. Here's the corrected version with the appropriate localhost port for Vite:
-
-```markdown
 # SpendR Expense Tracker
 
 Welcome to the **SpendR Expense Tracker** repository! This application is a modern, interactive expense tracking tool designed to help you manage your finances effectively. Built with the latest technologies such as **React**, **Vite**, and **Tailwind CSS**, this app ensures a smooth and responsive user experience.
@@ -25,32 +22,20 @@ Welcome to the **SpendR Expense Tracker** repository! This application is a mode
 
 To get started with the development or to try out the app locally, follow these steps:
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/spendr-expense-tracker-react.git
-   ```
-
-2. **Navigate to the Project Directory:**
+1. **Navigate to the Project Directory:**
    ```bash
    cd spendr-expense-tracker-react
-   ```
 
-3. **Install Dependencies:**
+2. **Install Dependencies:**
    ```bash
    npm install
-   ```
 
-4. **Start the Development Server:**
+3. **Start the Development Server:**
    ```bash
    npm run dev
-   ```
 
-5. **Open Your Browser:**
-   Visit `http://localhost:3000` or the port specified by Vite to see the app in action.
+4. **Open Your Browser:**
+   Visit http://localhost:3000 or the port specified by Vite to see the app in action.
 
----
 
 We hope you find this expense tracker app helpful in managing your finances. Happy tracking!
-```
-
-Feel free to use this text in your README file. If you have any further adjustments or questions, just let me know!
