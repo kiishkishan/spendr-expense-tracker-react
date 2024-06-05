@@ -14,6 +14,12 @@ export default {
         percentageNegativeText: "#DE1D1D",
         percentageNegativeBox: "#F5D0D0",
       },
+      screens: {
+        xs: "320px", // Define an xs breakpoint at 320px
+      },
+      boxShadow: {
+        "custom-shadow": "5px 2px 80px 2px rgba(0, 0, 0, 0.5)",
+      },
     },
   },
   plugins: [],

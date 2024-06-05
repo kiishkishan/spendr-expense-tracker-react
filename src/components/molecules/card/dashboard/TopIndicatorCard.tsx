@@ -8,6 +8,7 @@ type TopIndicatorCardProps = {
   value: string; // Value text
   percentage: string; // Percentage text
   percentageType: string; // Positive / Negative / Neutral
+  className?: string; // if any additional classes
 };
 
 const TopIndicatorCard: React.FC<TopIndicatorCardProps> = ({
@@ -16,9 +17,12 @@ const TopIndicatorCard: React.FC<TopIndicatorCardProps> = ({
   value,
   percentage,
   percentageType,
+  className,
 }) => {
   return (
-    <div className="bg-white p-4 rounded-3xl shadow-md flex flex-col w-56 h-fit">
+    <div
+      className={`bg-white p-4 rounded-3xl shadow-md flex flex-col w-56 h-fit ${className} `}
+    >
       <div className="flex justify-between items-start">
         <div className="bg-lightBaseOfPrimary rounded-2xl p-2 flex items-center justify-center h-16 w-16">
           <img src={icon} alt="Icon" className="h-10 w-10" />

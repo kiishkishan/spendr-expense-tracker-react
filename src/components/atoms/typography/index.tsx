@@ -15,7 +15,7 @@ export const Heading1: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h1
-      className={`text-4xl ${
+      className={`xs:text-3xl lg:text-4xl  ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >
@@ -32,7 +32,7 @@ export const Heading2: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h2
-      className={`text-3xl ${
+      className={`xs:text-2xl lg:text-3xl ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >
@@ -49,7 +49,7 @@ export const Heading3: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h3
-      className={`text-2xl ${
+      className={`xs:text-xl lg:text-2xl ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >
@@ -66,7 +66,7 @@ export const Heading4: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h4
-      className={`text-xl ${
+      className={`xs:text-lg lg:text-xl ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >
@@ -83,7 +83,7 @@ export const Heading5: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h5
-      className={`text-lg ${
+      className={`xs:text-base lg:text-lg ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >

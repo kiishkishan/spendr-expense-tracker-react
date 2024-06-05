@@ -1,10 +1,13 @@
-import { MoleculesDemo } from "./components/pages";
+import { Layout } from "./components/pages";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container bg-lightBaseOfPrimary h-screen mx-auto w-full p-5 flex flex-row justify-around align-middle text-center">
-      <MoleculesDemo />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/*" element={<Layout />} />
+      </Routes>
+    </Router>
   );
 }
 
