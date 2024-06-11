@@ -21,16 +21,16 @@ const TopIndicatorCard: React.FC<TopIndicatorCardProps> = ({
 }) => {
   return (
     <div
-      className={`bg-white p-4 rounded-3xl shadow-md flex flex-col w-56 h-fit ${className} `}
+      className={`bg-white p-4 rounded-none shadow-sm flex flex-col w-56 h-fit ${className} `}
     >
       <div className="flex justify-between items-start">
-        <div className="bg-lightBaseOfPrimary rounded-2xl p-2 flex items-center justify-center h-16 w-16">
-          <img src={icon} alt="Icon" className="h-10 w-10" />
+        <div className="bg-lightBaseOfPrimary rounded-xl p-2 flex items-center justify-center h-14 w-14">
+          <img src={icon} alt="Icon" className="h-8 w-8" />
         </div>
         <img src={threeDotsIcon} alt="Options" className="h-6 w-6 opacity-40" />
       </div>
       <div className="mt-4">
-        <Paragraph medium className="text-xl text-primary text-left">
+        <Paragraph medium className="text-lg text-primary text-left">
           {title}
         </Paragraph>
         <div className="flex justify-between items-center mt-2">
