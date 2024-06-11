@@ -83,7 +83,7 @@ export const Heading5: React.FC<TypographyProps> = ({
 }) => {
   return (
     <h5
-      className={`xs:text-base lg:text-lg ${
+      className={`text-lg ${
         bold ? "font-bold" : medium ? "font-medium" : "font-normal"
       } ${className}`}
     >

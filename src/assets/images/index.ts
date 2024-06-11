@@ -9,7 +9,8 @@ export { default as threeDotsIcon } from "./dashboard/three-dots.png";
 export { default as logoImage } from "./logo/logo.png";
 
 // sidebar icons
-export { default as sideBarDashboardIcon } from "./sidebar/icons8-dashboard-colored.png";
+export { default as sideBarDashboardIconActive } from "./sidebar/icons8-dashboard-colored.png";
+export { default as sideBarDashboardIcon } from "./sidebar/icons8-dashboard-48.png";
 export { default as sideBarCategoriesIcon } from "./sidebar/icons8-categories-48.png";
 export { default as sidebarIncomeIcon } from "./sidebar/icons8-income-50.png";
 export { default as sidebarExpenseIcon } from "./sidebar/icons8-expense-48.png";
